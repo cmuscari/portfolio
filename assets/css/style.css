@@ -88,8 +88,7 @@ section {
 .text-centered {
     position: absolute;
     top: 50%;
-    left: 50%;
-    text-align: center;
+    left: 42%;
     font-weight: bold;
     font-size: 30px;
   }
