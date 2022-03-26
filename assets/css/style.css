@@ -85,10 +85,18 @@ section {
     opacity: 25%;
 }
 
+#covid-risk-tracker-text {
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
 .text-centered {
     position: absolute;
     top: 50%;
-    left: 42%;
+    left: 35%;
     font-weight: bold;
     font-size: 30px;
   }

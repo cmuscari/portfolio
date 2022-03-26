@@ -1,6 +1,6 @@
 // Global Variables
-var runBuddyContainerEl = document.querySelector("#run-buddy");
-var runBuddyTextEl = document.querySelector("#run-buddy-text");
+var covidRiskTrackerContainerEl = document.querySelector("#covid-risk-tracker");
+var covidRiskTrackerTextEl = document.querySelector("#covid-risk-tracker-text");
 var sampleProject1ContainerEl = document.querySelector("#sample-project-1");
 var sampleProject1TextEl = document.querySelector("#sample-project-1-text");
 var sampleProject2ContainerEl = document.querySelector("#sample-project-2");
@@ -16,17 +16,17 @@ var sampleProject5TextEl = document.querySelector("#sample-project-5-text");
 
 
 
-// RUN BUDDY - display text on hover
-var showRunBuddyText = function () {
-    $(runBuddyTextEl).removeClass("d-none");   
+// COVID RISK TRACKER - display text on hover
+var showCovidRiskTrackerText = function () {
+    $(covidRiskTrackerTextEl).removeClass("d-none");   
 }
 
-var hideRunBuddyText = function () {
-    $(runBuddyTextEl).addClass("d-none");
+var hideCovidRiskTrackerText = function () {
+    $(covidRiskTrackerTextEl).addClass("d-none");
 }
 
-runBuddyContainerEl.addEventListener("mouseover", showRunBuddyText);
-runBuddyContainerEl.addEventListener("mouseout", hideRunBuddyText);
+covidRiskTrackerContainerEl.addEventListener("mouseover", showCovidRiskTrackerText);
+covidRiskTrackerContainerEl.addEventListener("mouseout", hideCovidRiskTrackerText);
 
 
 
