@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: rgba(255,255,255,0.75);
+    background-color: rgba(255, 255, 255, 0.75);
     display: flex;
     flex-direction: column;
     position: -webkit-sticky;
@@ -91,7 +91,15 @@ section {
     left: 32%;
     font-weight: bold;
     font-size: 30px;
-  }
+}
+
+#food-junkies-text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-weight: bold;
+    font-size: 30px;
+}
 
 .text-centered {
     position: absolute;
@@ -99,34 +107,34 @@ section {
     left: 35%;
     font-weight: bold;
     font-size: 30px;
-  }
+}
 
 .bio {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
 }
 
 .bio img {
-  margin-bottom: 5px;
-  margin-right: 20px;
-  flex: 1;
-  max-width: 30%;
-  object-fit: scale-down;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    flex: 1;
+    max-width: 30%;
+    object-fit: scale-down;
 }
 
-.bio p { 
-  text-align: left;
-  font-size: 22px;
-  margin-bottom: 5px;
-  margin-right: 20px;
-  padding: 50px;
-  flex-grow: 2;
+.bio p {
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    padding: 50px;
+    flex-grow: 2;
 }
 
 .contact-info {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
+    justify-content: space-around;
     text-align: center;
     font-size: 23px;
     width: 100%;
@@ -144,9 +152,9 @@ section {
 /* Media Queries*/
 
 @media screen and (min-width: 768px) {
-  .bio img {
-  min-height: 500px;
-  }
+    .bio img {
+        min-height: 500px;
+    }
 }
 
 
@@ -157,7 +165,7 @@ section {
 
     .project-photos-section {
         flex-direction: column;
-        justify-content: space-between; 
+        justify-content: space-between;
     }
 
     .section-title {
@@ -166,26 +174,42 @@ section {
     }
 
     .bio {
-      flex-wrap: wrap;
-  }
+        flex-wrap: wrap;
+    }
 
     .bio img {
         margin-right: 5px;
         padding: 10px;
         max-width: 100%;
     }
-    
-    .bio p { 
+
+    .bio p {
         margin-right: 5px;
         padding: 10px;
     }
-  }
+
+    .text-centered {
+        font-size: 20px;
+    }
+
+    #covid-risk-tracker-text {
+        font-size: 20px;
+        position: absolute;
+        top: 35%;
+        left: 15%;
+    }
+    
+    #food-junkies-text {
+        font-size: 20px;
+        position: absolute;
+        top: 35%;
+        left: 30%;
+    }
+}
 
 
-  @media screen and (max-width: 980px) {
-       section {
+@media screen and (max-width: 980px) {
+    section {
         padding: 50px;
     }
-  }
-
-
+}

@@ -1,8 +1,8 @@
 // Global Variables
 var covidRiskTrackerContainerEl = document.querySelector("#covid-risk-tracker");
 var covidRiskTrackerTextEl = document.querySelector("#covid-risk-tracker-text");
-var sampleProject1ContainerEl = document.querySelector("#sample-project-1");
-var sampleProject1TextEl = document.querySelector("#sample-project-1-text");
+var foodJunkiesContainerEl = document.querySelector("#food-junkies");
+var foodJunkiesTextEl = document.querySelector("#food-junkies-text");
 var sampleProject2ContainerEl = document.querySelector("#sample-project-2");
 var sampleProject2TextEl = document.querySelector("#sample-project-2-text");
 var sampleProject3ContainerEl = document.querySelector("#sample-project-3");
@@ -31,17 +31,17 @@ covidRiskTrackerContainerEl.addEventListener("mouseout", hideCovidRiskTrackerTex
 
 
 
-// SAMPLE PROJECT 1 - display text on hover
-var showSampleProject1Text = function () {
-    $(sampleProject1TextEl).removeClass("d-none");   
+// FOOD JUNKIES - display text on hover
+var showFoodJunkiesText = function () {
+    $(foodJunkiesTextEl).removeClass("d-none");   
 }
 
-var hideSampleProject1Text = function () {
-    $(sampleProject1TextEl).addClass("d-none");
+var hideFoodJunkiesText = function () {
+    $(foodJunkiesTextEl).addClass("d-none");
 }
 
-sampleProject1ContainerEl.addEventListener("mouseover", showSampleProject1Text);
-sampleProject1ContainerEl.addEventListener("mouseout", hideSampleProject1Text);
+foodJunkiesContainerEl.addEventListener("mouseover", showFoodJunkiesText);
+foodJunkiesContainerEl.addEventListener("mouseout", hideFoodJunkiesText);
 
 
 
